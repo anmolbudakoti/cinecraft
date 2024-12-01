@@ -12,7 +12,7 @@ export default function MovieDetails() {
     try {
       setLoading(true);
       const response = await fetch(
-        `http://www.omdbapi.com/?apikey=${apiKey}&i=${id}`
+        `https://www.omdbapi.com/?apikey=${apiKey}&i=${id}`
       );
       const result = await response.json();
       if (result) {

@@ -47,7 +47,7 @@ const MovieContextState = ({children})=>{
         try{
             setLoading(true)
 
-            const response = await fetch(`http://www.omdbapi.com/?apikey=${apiKey}&s=${query}`)
+            const response = await fetch(`https://www.omdbapi.com/?apikey=${apiKey}&s=${query}`)
             const result = await response.json()
             const movieList = result.Search
 
