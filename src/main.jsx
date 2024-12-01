@@ -7,7 +7,7 @@ import { BrowserRouter } from 'react-router-dom'
 
 createRoot(document.getElementById('root')).render(
     <MovieContextState>
-    <BrowserRouter>
+    <BrowserRouter basename='/cinecrate'>
     <App />
     </BrowserRouter>
     </MovieContextState>
