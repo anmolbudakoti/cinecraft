@@ -45,7 +45,7 @@ export default function Search() {
       <div className="flex justify-center items-center">
       <div className="m-3 border border-gray-400 px-3 py-1 flex justify-around items-center gap-2 rounded-3xl w-fit">
         <input
-          className="p-2 text-white md:text-lg bg-transparent outline-none"
+          className="p-2 text-white md:text-lg bg-transparent outline-none w-full"
           aria-label="Search Movie Name"
           type="text"
           name="title"
@@ -58,7 +58,7 @@ export default function Search() {
           className="font-semibold md:text-lg"
           onClick={handleSearch}
         >
-          <img src="https://cdn-icons-png.flaticon.com/128/13705/13705355.png" alt="search" className="hover:opacity-80 active:opacity-100 h-10 w-10"/>
+          <img src="https://cdn-icons-png.flaticon.com/128/13705/13705355.png" alt="search" className="hover:opacity-80 active:opacity-100 h-10 w-15"/>
         </button>
       </div>
       </div>
